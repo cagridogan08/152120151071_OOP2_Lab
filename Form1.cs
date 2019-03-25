@@ -62,11 +62,6 @@ namespace _152120151071_OOP2_Lab
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
-        private void btnRead_Click(object sender, EventArgs e)
-        {
-            
-        }
-
        
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -113,12 +108,12 @@ namespace _152120151071_OOP2_Lab
         { 
                 btnDelete.Enabled = true;
                 btnUpdate.Enabled = true;
-            int a = lstboxStaff.SelectedIndex;
-            txtID.Text = _item[a].ıd;
-            txtName.Text = _item[a].Name;
-            txtSurname.Text = _item[a].Surname;
-            txtAdress.Text = _item[a].Address;
-            txtSalary.Text = _item[a].Salary.ToString();
+            //int a = lstboxStaff.SelectedIndex;
+            //txtID.Text = _item[a].ıd;
+            //txtName.Text = _item[a].Name;
+            //txtSurname.Text = _item[a].Surname;
+            //txtAdress.Text = _item[a].Address;
+            //txtSalary.Text = _item[a].Salary.ToString();
 
 
         }

@@ -22,11 +22,7 @@ namespace _152120151071_OOP2_Lab
             this.address = Address;
             this.salary = Salary;
         }
-        public Staff()
-        {
-            this.ID = "";
-            this.name = "";
-        }
+       
       public string ıd
         {
             get { return ID; }
@@ -54,15 +50,7 @@ namespace _152120151071_OOP2_Lab
             get { return salary; }
             set { salary = value; }
         }
-        public int CompareTo(Staff comparePart)
-        {
-            
-            if (comparePart == null)
-                return 1;
-
-            else
-                return this.ID.CompareTo(comparePart.ID);
-        }
+       
 
     }
 }
